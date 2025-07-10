@@ -202,66 +202,8 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Customer Reviews Section */}
-        <div className={`mt-12 pt-8 border-t border-gray-800 transition-all duration-1000 delay-500 ${
-          isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
-        }`}>
-          <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-yellow-500 mb-2">What Our Customers Say</h3>
-            <div className="flex justify-center items-center space-x-1 mb-4">
-              {[1, 2, 3, 4, 5].map((star) => (
-                <Star 
-                  key={star} 
-                  className="w-5 h-5 text-yellow-500 fill-current" 
-                />
-              ))}
-              <span className="text-gray-300 ml-2">4.9/5 Based on 500+ Reviews</span>
-            </div>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              {
-                name: 'John Smith',
-                initial: 'J',
-                review: 'Excellent service! They fixed my brake issue quickly and professionally. Highly recommend AUDECK for all your auto needs.'
-              },
-              {
-                name: 'Sarah Johnson',
-                initial: 'S',
-                review: 'Great pricing and honest mechanics. They explained everything clearly and didn\'t try to upsell unnecessary services.'
-              },
-              {
-                name: 'Mike Davis',
-                initial: 'M',
-                review: 'Fast, reliable service with fair prices. The team at AUDECK knows their stuff. Will definitely be back!'
-              }
-            ].map((review, index) => (
-              <div 
-                key={index} 
-                className={`bg-gray-800 p-6 rounded-lg transition-all duration-1000 transform hover:scale-105 hover:shadow-xl hover:bg-gray-750 ${
-                  isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
-                }`}
-              >
-                <div className="flex items-center mb-4">
-                  {[1, 2, 3, 4, 5].map((star) => (
-                    <Star key={star} className="w-4 h-4 text-yellow-500 fill-current" />
-                  ))}
-                </div>
-                <p className="text-gray-300 mb-4 italic hover:text-white transition-colors duration-300">"{review.review}"</p>
-                <div className="flex items-center">
-                  <div className="w-10 h-10 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold transition-all duration-300 hover:bg-yellow-600 hover:scale-110">
-                    {review.initial}
-                  </div>
-                  <div className="ml-3">
-                    <p className="text-white font-semibold">{review.name}</p>
-                    <p className="text-gray-400 text-sm">Verified Customer</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+       
+            
       </div>
 
       {/* Bottom Footer */}
@@ -271,7 +213,7 @@ const Footer = () => {
         }`}>
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              <p>© 2024 AUDECK Auto Services. All rights reserved.</p>
+              <p>© 2024 AUDECK Auto Services. All rights reserved. SK-TECHNOLOGY801-BitWagon</p>
             </div>
             <div className="flex flex-wrap items-center space-x-6 text-sm">
               {['Privacy Policy', 'Terms of Service', 'Cookie Policy', 'Sitemap'].map((link, index) => (
