@@ -1,15 +1,38 @@
-import { connectDB } from '@/lib/db';
-import Contact from '@/models/contact';
+// app/api/contact/route.js
 
-export async function POST(request) {
+import clientPromise from "@/lib/mongodb";
+
+export async function POST(req) {
   try {
-    const body = await request.json();
-    await connectDB();
-    const contact = new Contact(body);
-    await contact.save();
-    return new Response(JSON.stringify({ message: 'Saved successfully' }), { status: 201 });
-  } catch (error) {
-    console.error('Error saving contact:', error);
-    return new Response(JSON.stringify({ message: 'Error saving contact' }), { status: 500 });
+    const { name, email, phone, service, message } = await req.json();
+
+    if (!name || !email || !message) {
+      return new Response(JSON.stringify({ error: "Missing required fields" }), {
+        status: 400,
+      });
+    }
+
+    const client = await clientPromise;
+    const db = client.db("auto_service");
+    const collection = db.collection("contacts");
+
+    const result = await collection.insertOne({
+      name,
+      email,
+      phone,
+      service,
+      message,
+      createdAt: new Date(),
+    });
+
+    return new Response(
+      JSON.stringify({ message: "Message sent successfully", id: result.insertedId }),
+      { status: 201 }
+    );
+  } catch (err) {
+    console.error("Error saving contact:", err);
+    return new Response(JSON.stringify({ error: "Internal Server Error" }), {
+      status: 500,
+    });
   }
 }
