@@ -208,88 +208,10 @@ const AutoHubBlog = () => {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <section className="py-16 bg-gradient-to-r from-yellow-400 to-yellow-500">
-        <div className="container mx-auto px-4 text-center">
-          <h3 className="text-4xl font-bold text-black mb-4">Stay Updated</h3>
-          <p className="text-black/80 mb-8 max-w-2xl mx-auto">
-            Subscribe to our newsletter for the latest automotive tips, industry news, and exclusive content.
-          </p>
-          <div className="flex flex-col sm:flex-row max-w-md mx-auto space-y-4 sm:space-y-0 sm:space-x-4">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg bg-black/10 backdrop-blur-md border border-black/20 text-black placeholder-black/60 focus:outline-none focus:ring-2 focus:ring-black/30"
-            />
-            <button className="px-8 py-3 bg-black text-yellow-400 font-semibold rounded-lg hover:bg-gray-900 transition-colors duration-300 transform hover:scale-105">
-              Subscribe
-            </button>
-          </div>
-        </div>
-      </section>
+      
+    
 
-      {/* Footer */}
-      <footer className="bg-gray-900 py-12 border-t border-gray-800">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
-                  <span className="text-black font-bold text-lg">A</span>
-                </div>
-                <h4 className="text-xl font-bold text-yellow-400">AutoHub</h4>
-              </div>
-              <p className="text-gray-400">
-                Your trusted automotive service partner for all your vehicle needs.
-              </p>
-            </div>
-            
-            <div>
-              <h5 className="text-lg font-semibold mb-4 text-yellow-400">Services</h5>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Oil Changes</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Brake Repair</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Engine Diagnostics</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Tire Services</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h5 className="text-lg font-semibold mb-4 text-yellow-400">Company</h5>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Careers</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Contact</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Privacy Policy</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h5 className="text-lg font-semibold mb-4 text-yellow-400">Connect</h5>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Facebook</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Twitter</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Instagram</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">LinkedIn</a></li>
-              </ul>
-            </div>
-          </div>
-          
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 AutoHub. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-
-      {/* Scroll to Top Button */}
-      <button
-        onClick={scrollToTop}
-        className={`fixed bottom-8 right-8 w-12 h-12 bg-yellow-400 text-black rounded-full flex items-center justify-center shadow-lg hover:bg-yellow-500 transition-all duration-300 transform hover:scale-110 ${
-          showScrollTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-        }`}
-      >
-        <ArrowUp size={20} />
-      </button>
+      
 
       <style jsx>{`
         @keyframes fadeIn {
