@@ -326,7 +326,7 @@ export default function PricingPage() {
             <p className="text-gray-300 mb-6">
               * Prices subject to change based on vehicle make, model, and specific requirements
             </p>
-            <a href="/get-quote">
+            <a href="/contact">
             <button className="bg-yellow-400 text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-300 transition-colors">
               Request Custom Quote
             </button>

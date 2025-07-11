@@ -404,9 +404,9 @@ const QuotePage = () => {
             Crafted with <span className="text-yellow-500">♥</span> to inspire your journey
           </p>
           <div className="mt-4 flex justify-center space-x-6">
-            <a href="#" className="text-yellow-500 hover:text-yellow-400 transition-colors">About</a>
-            <a href="#" className="text-yellow-500 hover:text-yellow-400 transition-colors">Contact</a>
-            <a href="#" className="text-yellow-500 hover:text-yellow-400 transition-colors">Privacy</a>
+            <a href="/about" className="text-yellow-500 hover:text-yellow-400 transition-colors">About</a>
+            <a href="/contact" className="text-yellow-500 hover:text-yellow-400 transition-colors">Contact</a>
+            <a href="/privacy" className="text-yellow-500 hover:text-yellow-400 transition-colors">Privacy</a>
           </div>
         </div>
       </footer>

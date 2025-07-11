@@ -258,7 +258,7 @@ const BrakeServicePage = () => {
                 Book Service Now
               </motion.button>
               </a>
-              
+              <a href="/emergance">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -267,6 +267,7 @@ const BrakeServicePage = () => {
                 <Phone className="w-5 h-5 inline mr-2" />
                 Emergency Service
               </motion.button>
+              </a>
             </div>
           </motion.div>
         </div>
@@ -515,7 +516,7 @@ const BrakeServicePage = () => {
                 Book Brake Service
               </motion.button>
               </a>
-              
+              <a href="/contact">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -524,6 +525,7 @@ const BrakeServicePage = () => {
                 <Phone className="w-5 h-5 inline mr-2" />
                 Call (555) 123-BRAKE
               </motion.button>
+              </a>
             </div>
           </motion.div>
         </div>

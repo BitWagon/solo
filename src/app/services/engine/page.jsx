@@ -105,9 +105,11 @@ export default function EngineRepairPage() {
                 Schedule Service
               </button>
               </a>
+              <a href="/emergance">
               <button className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-400 hover:text-black transition-all">
                 Emergency Repair
               </button>
+              </a>
             </div>
           </div>
         </div>

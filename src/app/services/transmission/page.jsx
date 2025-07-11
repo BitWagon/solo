@@ -66,7 +66,6 @@ export default function TransmissionRepairPage() {
               <span className="text-xl font-bold text-yellow-400">TransPro</span>
             </div>
             
-         
 
             {/* Mobile menu button */}
             <button
@@ -106,12 +105,16 @@ export default function TransmissionRepairPage() {
               <span className="text-yellow-400 font-semibold"> lifetime warranty guarantee</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="/diagnostic">
               <button className="bg-yellow-400 text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-300 transition-all transform hover:scale-105">
                 Free Diagnostic
               </button>
+              </a>
+              <a href="/contact">
               <button className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-400 hover:text-black transition-all">
                 Call Now: (555) 123-TRANS
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -185,9 +188,11 @@ export default function TransmissionRepairPage() {
             <div className="bg-yellow-400 text-black rounded-xl p-8 max-w-4xl mx-auto">
               <h3 className="text-2xl font-bold mb-4">Experiencing Any of These Issues?</h3>
               <p className="text-lg mb-6">Don't wait until it's too late. Get a FREE diagnostic today!</p>
+              <a href="/diagnostic">
               <button className="bg-black text-yellow-400 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-800 transition-colors">
                 Schedule Free Diagnostic
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -248,9 +253,11 @@ export default function TransmissionRepairPage() {
                   <div className="text-gray-300">Emergency Towing</div>
                 </div>
               </div>
+              <a href="/contact">
               <button className="w-full mt-6 bg-yellow-400 text-black py-3 rounded-lg font-semibold hover:bg-yellow-300 transition-colors">
                 Get Free Quote
               </button>
+              </a>
             </div>
           </div>
         </div>

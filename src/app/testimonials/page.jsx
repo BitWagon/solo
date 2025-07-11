@@ -390,12 +390,16 @@ const AutoServiceTestimonials = () => {
               Experience the same exceptional service that earned us these amazing reviews
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="/contact">
               <button className="bg-yellow-400 text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:shadow-yellow-400/30">
                 Book Your Service
               </button>
+              </a>
+              <a href="/review">
               <button className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-400 hover:text-black transition-all duration-300 transform hover:scale-110">
                 Leave a Review
               </button>
+              </a>
             </div>
           </div>
         </div>

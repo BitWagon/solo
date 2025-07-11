@@ -228,59 +228,7 @@ const AutoHubBlog = () => {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 py-12 border-t border-gray-800">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
-                  <span className="text-black font-bold text-lg">A</span>
-                </div>
-                <h4 className="text-xl font-bold text-yellow-400">AutoHub</h4>
-              </div>
-              <p className="text-gray-400">
-                Your trusted automotive service partner for all your vehicle needs.
-              </p>
-            </div>
-            
-            <div>
-              <h5 className="text-lg font-semibold mb-4 text-yellow-400">Services</h5>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Oil Changes</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Brake Repair</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Engine Diagnostics</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Tire Services</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h5 className="text-lg font-semibold mb-4 text-yellow-400">Company</h5>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Careers</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Contact</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Privacy Policy</a></li>
-              </ul>
-            </div>
-            
-            <div>
-              <h5 className="text-lg font-semibold mb-4 text-yellow-400">Connect</h5>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Facebook</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Twitter</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">Instagram</a></li>
-                <li><a href="#" className="hover:text-yellow-400 transition-colors">LinkedIn</a></li>
-              </ul>
-            </div>
-          </div>
-          
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 AutoHub. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-
+      
       {/* Scroll to Top Button */}
       <button
         onClick={scrollToTop}
