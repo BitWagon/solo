@@ -37,12 +37,18 @@ const AutoServiceHomepage = () => {
             Expert automotive care with cutting-edge technology and unmatched customer service
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+            <a href="/services">
             <button className="bg-yellow-400 text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-all transform hover:scale-105">
               Schedule Service
             </button>
+            </a>
+
+            <a href="/get-quote">
             <button className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-400 hover:text-black transition-all">
               Get Quote
             </button>
+            </a>
      
           </div>
         </div>
