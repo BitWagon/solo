@@ -1,18 +1,15 @@
 import { connectDB } from '@/lib/db';
-import Contact from '@/lib/models/Contact';
+import Contact from '@/models/contact';
 
-export async function POST(req) {
+export async function POST(request) {
   try {
+    const body = await request.json();
     await connectDB();
-    const data = await req.json();
-
-    const newContact = await Contact.create(data);
-    return Response.json({ success: true, message: 'Message sent successfully', contact: newContact });
+    const contact = new Contact(body);
+    await contact.save();
+    return new Response(JSON.stringify({ message: 'Saved successfully' }), { status: 201 });
   } catch (error) {
-    console.error('Contact Form Error:', error);
-    return new Response(JSON.stringify({ success: false, message: 'Something went wrong' }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' },
-    });
+    console.error('Error saving contact:', error);
+    return new Response(JSON.stringify({ message: 'Error saving contact' }), { status: 500 });
   }
 }
