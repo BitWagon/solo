@@ -148,9 +148,11 @@ const TeamPage = () => {
             <p className="text-lg text-gray-300 mb-6">
               Our team is ready to provide top-notch service for your vehicle. Contact us today!
             </p>
+            <a href="/contact">
             <button className="bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-500 transition-all duration-300 transform hover:scale-105">
               Contact Our Team
             </button>
+            </a>
           </div>
         </div>
       </section>

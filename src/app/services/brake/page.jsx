@@ -248,6 +248,7 @@ const BrakeServicePage = () => {
             </p>
             
             <div className="flex flex-wrap gap-4 justify-center">
+              <a href="/contact">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -256,6 +257,7 @@ const BrakeServicePage = () => {
                 <Calendar className="w-5 h-5 inline mr-2" />
                 Book Service Now
               </motion.button>
+              </a>
               
               <motion.button
                 whileHover={{ scale: 1.05 }}
@@ -503,6 +505,7 @@ const BrakeServicePage = () => {
             </p>
             
             <div className="flex flex-wrap gap-4 justify-center">
+              <a href="/contact">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -511,6 +514,7 @@ const BrakeServicePage = () => {
                 <Calendar className="w-5 h-5 inline mr-2" />
                 Book Brake Service
               </motion.button>
+              </a>
               
               <motion.button
                 whileHover={{ scale: 1.05 }}

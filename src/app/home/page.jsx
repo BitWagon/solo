@@ -38,7 +38,7 @@ const AutoServiceHomepage = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
 
-            <a href="/services">
+            <a href="/services/transmission">
             <button className="bg-yellow-400 text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-all transform hover:scale-105">
               Schedule Service
             </button>

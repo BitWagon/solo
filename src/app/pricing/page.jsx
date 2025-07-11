@@ -188,12 +188,16 @@ export default function PricingPage() {
               <span className="text-yellow-400 font-semibold"> upfront estimates</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="/contact">
               <button className="bg-yellow-400 text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-300 transition-all transform hover:scale-105">
                 Get Free Estimate
               </button>
+              </a>
+              <a href="/get-quote">
               <button className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-400 hover:text-black transition-all">
                 Call for Quote
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -322,9 +326,11 @@ export default function PricingPage() {
             <p className="text-gray-300 mb-6">
               * Prices subject to change based on vehicle make, model, and specific requirements
             </p>
+            <a href="/get-quote">
             <button className="bg-yellow-400 text-black px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-300 transition-colors">
               Request Custom Quote
             </button>
+            </a>
           </div>
         </div>
       </section>

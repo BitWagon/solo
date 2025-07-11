@@ -162,18 +162,22 @@ const OilChangeService = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/contact">
             <button className="group bg-black text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 shadow-2xl">
               <span className="flex items-center">
                 Book Instantly
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </span>
             </button>
+            </a>
+            <a href="/services/brake">
             <button className="group bg-yellow-400 text-black px-8 py-4 rounded-2xl font-bold text-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105 shadow-2xl">
               <span className="flex items-center">
                 <Calendar className="w-5 h-5 mr-2" />
                 Schedule Service
               </span>
             </button>
+            </a>
           </div>
         </div>
       </section>

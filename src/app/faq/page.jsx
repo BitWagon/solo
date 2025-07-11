@@ -295,9 +295,11 @@ const AutoServiceFAQ = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Call Us</h3>
               <p className="text-gray-300 mb-4">(555) 123-4567</p>
+              <a href="/contact">
               <button className="bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-500 transition-all duration-300 transform hover:scale-110">
                 Call Now
               </button>
+              </a>
             </div>
             
             <div 
@@ -315,9 +317,11 @@ const AutoServiceFAQ = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
               <p className="text-gray-300 mb-4">info@autopro.com</p>
+              <a href="/contact">
               <button className="bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-500 transition-all duration-300 transform hover:scale-110">
                 Send Email
               </button>
+              </a>
             </div>
             
             <div 
@@ -335,9 +339,11 @@ const AutoServiceFAQ = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Visit Us</h3>
               <p className="text-gray-300 mb-4">123 Auto Street, City, State 12345</p>
+              <a href="/contact">
               <button className="bg-yellow-400 text-black px-6 py-2 rounded-full font-semibold hover:bg-yellow-500 transition-all duration-300 transform hover:scale-110">
                 Get Directions
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -377,9 +383,11 @@ const AutoServiceFAQ = () => {
               <button className="bg-yellow-400 text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:shadow-yellow-400/30">
                 Schedule Service
               </button>
+              <a href="/get-quote">
               <button className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-400 hover:text-black transition-all duration-300 transform hover:scale-110">
                 Get Free Quote
               </button>
+              </a>
             </div>
           </div>
         </div>

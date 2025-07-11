@@ -150,9 +150,11 @@ const GalleryPage = () => {
             <p className="text-xl text-gray-300 mb-8 group-hover:text-gray-100 transition-colors duration-300">
               Contact us to learn more about our automotive services
             </p>
+            <a href="/contact">
             <button className="bg-yellow-400 text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:shadow-yellow-400/30">
               Get in Touch
             </button>
+            </a>
           </div>
         </div>
       </section>

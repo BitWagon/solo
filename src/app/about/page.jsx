@@ -278,12 +278,16 @@ const AboutPage = () => {
             Join thousands of satisfied customers who trust us with their automotive needs. Schedule your service today!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/services/engine">
             <button className="bg-yellow-400 text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-all transform hover:scale-105">
               Schedule Service
             </button>
+            </a>
+            <a href="/get-quote">
             <button className="border-2 border-yellow-400 text-yellow-400 px-8 py-4 rounded-full text-lg font-semibold hover:bg-yellow-400 hover:text-black transition-all">
               Get Free Quote
             </button>
+            </a>
           </div>
         </div>
       </section>
